@@ -4,13 +4,13 @@ function: extract pic is used for extracting picture of a single webpage
 1.brew install wget
 2.chmod 711 extract-pic.sh
 ##usage:
-./extract-pic.sh <web page you want to extract>
+./extract-pic.sh (web page you want to extract)
 
 
 #subset.py
 function:extract certain 1-nth line from a file and output it in a new file
-#prerequisite
+##prerequisite
 1.you have python
-#usage
-python subset.py <the file you want to subset> <number you want to read in > <name of the output file>
+##usage
+python subset.py (the file you want to subset) (number you want to read in) (name of the output file)
 
